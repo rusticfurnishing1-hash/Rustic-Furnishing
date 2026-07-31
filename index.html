@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO & Meta Tags -->
+    <title>Premium Luxury Furniture in Arunachal Pradesh | Rustic Furnishing</title>
+    <meta name="description" content="Rustic Furnishing is a premier luxury furniture manufacturer in Arunachal Pradesh. We specialize in custom teak wood furniture in Itanagar for homes, hotels, and offices.">
+    <meta name="keywords" content="luxury furniture, custom furniture, modern furniture, wood furniture, Rustic Furnishing, home decor">
+    <meta name="author" content="Rustic Furnishing">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.rusticfurnishing.com/">
+    <meta property="og:title" content="Premium Luxury Furniture in Arunachal Pradesh | Rustic Furnishing">
+    <meta property="og:description" content="Discover exquisite, hand-crafted furniture for your space. We also specialize in custom-made designs to match your unique vision.">
+    <meta property="og:image" content="assets/hero/hero-bg.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.rusticfurnishing.com/">
+    <meta property="twitter:title" content="Premium Luxury Furniture in Arunachal Pradesh | Rustic Furnishing">
+    <meta property="twitter:description" content="Discover exquisite, hand-crafted furniture for your space. We also specialize in custom-made designs to match your unique vision.">
+    <meta property="twitter:image" content="assets/hero/hero-bg.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Playfair Display for elegant headings, Outfit for clean modern body text -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Icons (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header id="header" class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo/logo.png" alt="Rustic Furnishing Logo" id="brand-logo">
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#products-section">Products</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div>
+            
+            <!-- Top Text: Positioned above the RF logo -->
+            <div class="hero-content-top">
+                <span class="hero-subtitle">premium craftsmanship</span>
+                <h1 class="hero-title">Luxury Furniture Manufacturer in Arunachal Pradesh</h1>
+            </div>
+            
+            <!-- Bottom Text & Buttons: Positioned below the RF logo -->
+            <div class="hero-content-bottom">
+                <p class="hero-desc">Discover exquisite, handcrafted designs from the leading luxury furniture manufacturer in Arunachal Pradesh. Elevate your home or commercial space with our bespoke custom teak wood furniture in Itanagar.</p>
+                <div class="hero-buttons">
+                    <a href="#products-section" class="btn-primary">Shop Now</a>
+                    <a href="#gallery" class="btn-outline">Explore Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search & Filter Section -->
+        <section id="shop-controls" class="shop-controls-section">
+            <div class="container">
+                <div class="controls-wrapper">
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="product-search" placeholder="Search furniture...">
+                    </div>
+                    <div class="filters">
+                        <select id="filter-category" class="filter-select">
+                            <option value="all">All Categories</option>
+                            <option value="living">Living Room</option>
+                            <option value="bedroom">Bedroom</option>
+                            <option value="office">Office</option>
+                            <option value="dining">Dining</option>
+                        </select>
+                        <select id="filter-material" class="filter-select">
+                            <option value="all">All Materials</option>
+                            <option value="teak">Teak Wood</option>
+                            <option value="oak">Oak Wood</option>
+                            <option value="walnut">Walnut</option>
+                            <option value="metal">Metal & Glass</option>
+                        </select>
+                        <select id="sort-price" class="filter-select">
+                            <option value="default">Sort By</option>
+                            <option value="newest">Newest Arrivals</option>
+                            <option value="low-high">Price: Low to High</option>
+                            <option value="high-low">Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products-section" class="products-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Exclusive Collection</h2>
+                    <p class="section-subtitle">Meticulously designed pieces that blend aesthetics with functionality.</p>
+                </div>
+                
+                <div class="product-grid" id="product-grid">
+                    <!-- Static Product Card 1 -->
+                    <article class="product-card" data-category="living" data-material="walnut" data-price="45000" data-id="p1">
+                        <div class="product-img-wrapper">
+                            <span class="discount-badge">-10%</span>
+                            <img src="assets/product-images/minimalist-velvet-sofa.webp" alt="Minimalist Velvet Sofa" class="product-img" loading="lazy">
+                            <div class="product-actions-hover">
+                                <button class="action-btn quick-view-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn wishlist-btn" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn share-btn" title="Share"><i class="fa-solid fa-share-nodes"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Minimalist Velvet Sofa</h3>
+                            <p class="product-short-desc">Elevate your living room with our bespoke minimalist sofa, crafted right here in Northeast India. It features a premium walnut frame enveloped in soft velvet, perfect for those seeking premium luxury furniture in Arunachal Pradesh.</p>
+                            <div class="product-price">
+                                <span class="offer-price">₹40,500</span>
+                                <span class="original-price">₹45,000</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Static Product Card 2 -->
+                    <article class="product-card" data-category="office" data-material="teak" data-price="25000" data-id="p2">
+                        <div class="product-img-wrapper">
+                            <span class="discount-badge">-10%</span>
+                            <img src="assets/product-images/executive-teak-desk.webp" alt="Executive Teak Desk" class="product-img" loading="lazy">
+                            <div class="product-actions-hover">
+                                <button class="action-btn quick-view-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn wishlist-btn" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn share-btn" title="Share"><i class="fa-solid fa-share-nodes"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Executive Teak Desk</h3>
+                            <p class="product-short-desc">Command your workspace with the finest custom teak wood furniture in Itanagar. This majestic executive desk is carved from solid teak wood and finished with elegant brass accents for discerning professionals.</p>
+                            <div class="product-price">
+                                <span class="offer-price">₹22,500</span>
+                                <span class="original-price">₹25,000</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Static Product Card 3 -->
+                    <article class="product-card" data-category="dining" data-material="oak" data-price="60000" data-id="p3">
+                        <div class="product-img-wrapper">
+                            <span class="discount-badge">-10%</span>
+                            <img src="assets/product-images/nordic-oak-dining-set.webp" alt="Nordic Oak Dining Set" class="product-img" loading="lazy">
+                            <div class="product-actions-hover">
+                                <button class="action-btn quick-view-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn wishlist-btn" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn share-btn" title="Share"><i class="fa-solid fa-share-nodes"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Nordic Oak Dining Set</h3>
+                            <p class="product-short-desc">Host unforgettable dinners with this stunning 6-seater dining table and ergonomic chairs. As a leading wooden furniture manufacturer, we ensure durable oak construction that brings modern luxury to your dining room.</p>
+                            <div class="product-price">
+                                <span class="offer-price">₹54,000</span>
+                                <span class="original-price">₹60,000</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Static Product Card 4 -->
+                    <article class="product-card" data-category="bedroom" data-material="walnut" data-price="85000" data-id="p4">
+                        <div class="product-img-wrapper">
+                            <span class="discount-badge">-10%</span>
+                            <img src="assets/product-images/royal-walnut-king-bed.webp" alt="Royal Walnut Bed" class="product-img" loading="lazy">
+                            <div class="product-actions-hover">
+                                <button class="action-btn quick-view-btn" title="Quick View"><i class="fa-regular fa-eye"></i></button>
+                                <button class="action-btn wishlist-btn" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                                <button class="action-btn share-btn" title="Share"><i class="fa-solid fa-share-nodes"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Royal Walnut King Bed</h3>
+                            <p class="product-short-desc">Transform your bedroom into a sanctuary with this masterpiece of premium luxury furniture in Arunachal Pradesh. Featuring a plush tufted headboard and a premium walnut finish, it offers unparalleled comfort and masterful local artisanship.</p>
+                            <div class="product-price">
+                                <span class="offer-price">₹76,500</span>
+                                <span class="original-price">₹85,000</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Our Craftsmanship</h2>
+                    <p class="section-subtitle">A glimpse into our manufacturing and previous custom projects.</p>
+                </div>
+                
+                <div class="masonry-gallery" id="masonry-gallery">
+                    <!-- Gallery Items -->
+                      <div class="gallery-item">
+                        <img src="assets/gallery/cb-1.webp" alt="Master artisans crafting custom teak wood furniture in Itanagar" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                     </div>
+                      <div class="gallery-item">
+                        <img src="assets/gallery/cb-2.webp" alt="Expert wooden furniture manufacturer polishing premium timber in Arunachal Pradesh" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                     </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/gallery-1.webp" alt="Detailed joinery work at our luxury furniture factory in Northeast India" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/gallery-2.webp" alt="Premium luxury furniture in Arunachal Pradesh installed in a boutique hotel lobby" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/gallery-3.webp" alt="Royal walnut custom bed frame handcrafted by a leading wooden furniture manufacturer" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/gallery-4.webp" alt="Custom wooden dining tables and restaurant seating arranged for a commercial space in Itanagar" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/gallery-5.webp" alt="Modern minimalist oak wood chair showcasing luxury furniture design" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/gallery/gallery-6.webp" alt="Artisan applying premium finish to custom teak wood furniture in Itanagar" loading="lazy">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Placeholder for Gallery -->
+        <div id="lightbox" class="lightbox">
+            <span class="close-lightbox">&times;</span>
+            <img class="lightbox-content" id="lightbox-img" src="" alt="Enlarged view">
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding bg-light">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="assets/gallery/workshop.webp" alt="Rustic Furnishing Workshop" loading="lazy">
+                        <div class="experience-badge">
+                            <span class="years">20+</span>
+                            <span class="text">Years of Excellence</span>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <h2 class="section-title text-left">Mastering The Art of Wood</h2>
+                        <p class="about-story">Rustic Furnishing began with a simple philosophy: to create furniture that tells a story. From humble beginnings as a small workshop, we have grown into a premier furniture manufacturer trusted by homes, luxury resorts, and commercial spaces globally.</p>
+                        <p class="about-mission"><strong>Our Mission:</strong> To blend traditional craftsmanship with modern technology, producing timeless pieces that offer ultimate comfort and unmatched durability.</p>
+                        <ul class="about-features">
+                            <li><i class="fa-solid fa-check"></i> Ethically sourced premium wood.</li>
+                            <li><i class="fa-solid fa-check"></i> Master artisans and skilled carpenters.</li>
+                            <li><i class="fa-solid fa-check"></i> End-to-end custom manufacturing.</li>
+                            <li><i class="fa-solid fa-check"></i> Rigorous quality control process.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Client Testimonials</h2>
+                    <p class="section-subtitle">Hear what our satisfied customers have to say.</p>
+                </div>
+                
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Rustic Furnishing completely transformed our hotel lobby. The custom teak wood sofas are simply breathtaking. The quality is unmatched."</p>
+                        <div class="reviewer">
+                            <div class="r-avatar">LJ</div>
+                            <div class="r-info">
+                                <h4>L.Jimmy </h4>
+                                <span>Boutique Hotel Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"I ordered a custom dining table based on a Pinterest picture. They recreated it perfectly, making it even sturdier. Exceptional craftsmanship!"</p>
+                        <div class="reviewer">
+                            <div class="r-avatar">YS</div>
+                            <div class="r-info">
+                                <h4>Yowa Shama</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p class="review-text">"Excellent B2B service. Delivered 150 office workstations on time. The finish is professional, and the team is highly responsive."</p>
+                        <div class="reviewer">
+                            <div class="r-avatar">TPZ</div>
+                            <div class="r-info">
+                                <h4>TP Zakk</h4>
+                                <span>Corporate Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">Have queries or looking for bulk orders? Reach out to us.</p>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h3>Visit Factory</h3>
+                                <p>Bowra Complex, Near Police Station, NH13, Itanagar-Ziro<br>Yazali, Peni, Arunachal Pradesh 791119</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="icon-box"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p>+91 7005358860<br>Mon-Sat, 9AM to 7PM</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p>rusticfurnishing@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container glass-effect">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Google Maps Embed -->
+                <div class="map-placeholder">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=27.3842565,93.7612064&hl=en&z=17&output=embed" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 12px; margin-top: 40px; box-shadow: var(--shadow-sm);" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <img src="assets/logo/logo.png" alt="Rustic Furnishing" class="footer-logo">
+                    <p>Creating timeless, premium furniture that blends comfort with elegant design. Trusted by homes and businesses worldwide.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#products-section">Shop Collection</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Home Furniture</a></li>
+                        <li><a href="#">Office Workspaces</a></li>
+                        <li><a href="#">Hotel & Resort Setup</a></li>
+                        <li><a href="#">Restaurant Seating</a></li>
+                        <li><a href="#">School Furniture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to receive updates on new collections and special offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rustic Furnishing. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917005358860?text=Hello%20Rustic%20Furnishing,%20I%20have%20an%20inquiry." target="_blank" class="whatsapp-float" id="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
