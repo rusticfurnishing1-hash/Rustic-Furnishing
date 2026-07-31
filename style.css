@@ -940,9 +940,6 @@ input:focus, select:focus, textarea:focus {
 /* ==========================================================================
    Responsive Media Queries
    ========================================================================== */
-/* ==========================================================================
-   Responsive Media Queries
-   ========================================================================== */
 @media (max-width: 1024px) {
     .about-grid {
         grid-template-columns: 1fr;
@@ -994,7 +991,7 @@ input:focus, select:focus, textarea:focus {
     /* Mobile UI Spacing Fixes */
     .section-padding { padding: 50px 0; }
     .navbar { padding: 15px 0; }
-    .logo img { height: 60px; } 
+    .logo img { height: 85px; } /* Updated from 60px */
     .shop-controls-section { padding: 20px 0 0; }
     .controls-wrapper { padding: 15px; gap: 10px; }
     .product-grid { gap: 20px; }
@@ -1021,7 +1018,7 @@ input:focus, select:focus, textarea:focus {
     .section-title { font-size: 1.8rem; }
     .section-subtitle { font-size: 0.95rem; margin-bottom: 30px; }
     .section-padding { padding: 40px 0; }
-    .logo img { height: 45px; }
+    .logo img { height: 75px; } /* Updated from 45px */
     .product-info { padding: 15px; }
     .product-name { font-size: 1.2rem; }
 }
