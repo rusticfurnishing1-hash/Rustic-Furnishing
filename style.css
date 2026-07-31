@@ -1018,7 +1018,7 @@ input:focus, select:focus, textarea:focus {
     .section-title { font-size: 1.8rem; }
     .section-subtitle { font-size: 0.95rem; margin-bottom: 30px; }
     .section-padding { padding: 40px 0; }
-    .logo img { height: 75px; } /* Updated from 45px */
+    .logo img { height: 95px; } /* Updated from 45px */
     .product-info { padding: 15px; }
     .product-name { font-size: 1.2rem; }
 }
