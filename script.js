@@ -169,3 +169,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+// Remove URL fragment after clicking smooth scroll links
+document.querySelectorAll('a[href="#hero"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        setTimeout(() => {
+            history.replaceState(null, null, window.location.pathname);
+        }, 5);
+    });
+});
