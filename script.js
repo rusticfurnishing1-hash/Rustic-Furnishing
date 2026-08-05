@@ -124,14 +124,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     /* ==========================================================================
-       4. Gallery Lightbox
+       4. Gallery & Product Lightbox
        ========================================================================== */
-    const galleryItems = document.querySelectorAll('.gallery-item img');
+    // Expanded selector to include both product images and gallery images
+    const popUpImages = document.querySelectorAll('.gallery-item img, .product-img');
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const closeLightbox = document.querySelector('.close-lightbox');
 
-    galleryItems.forEach(img => {
+    popUpImages.forEach(img => {
         img.addEventListener('click', () => {
             lightboxImg.src = img.src;
             lightbox.classList.add('active');
